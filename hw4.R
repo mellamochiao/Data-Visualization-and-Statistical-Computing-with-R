@@ -76,7 +76,6 @@ summary(gaf.fit)
 gaf.fit <- lm(gaf ~ age + pretherapy) 
 summary(gaf.fit) 
 
-
 mod.1 <- lm(gaf ~ age) 
 summary(mod.1) 
 

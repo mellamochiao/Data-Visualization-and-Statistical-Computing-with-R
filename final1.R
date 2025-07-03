@@ -32,7 +32,6 @@ ggplot(plot_data, aes(x = year, y = n, color = name)) +
     title = "The most popular female names in USA made by 周子喬",
     x = "年份", y = "數量"
   ) +
-  
   theme_minimal(base_family = "cw") +
   theme(
     panel.background = element_rect(fill = "gray95", color = NA),

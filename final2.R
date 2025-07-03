@@ -16,11 +16,11 @@ p1 <- ggplot(dsmall, aes(x = carat, y = price, color = clarity)) +
   labs(title = "周子喬:散佈圖")+
   theme_gray()
 
-
 # B圖：2D密度圖（facet by clarity）
 p2 <- ggplot(dsmall, aes(x = carat, y = price)) +
   geom_density_2d_filled(contour_var = "ndensity") +
   facet_wrap(vars(clarity)) +
   labs(title = "周子喬:2D密度圖") +
   theme_gray()
+
 p1 + p2 + plot_annotation(tag_levels = "A")

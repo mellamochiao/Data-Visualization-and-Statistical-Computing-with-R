@@ -51,13 +51,7 @@ ggmap(tw.map.zh)
 #ggmap(tw.map.ncku.hybrid)
 
 
-lon.v=c(120.217172-0.003, 120.217172+0.003,120.217172+0.003,120.217172-0.003,120.217172-0.003)
-lat.v=c(22.998808+0.003,22.998808+0.003,22.998808-0.003,22.998808-0.003,22.998808+0.003)
-ncku.coords=data.frame(lon=lon.v,lat=lat.v)
-ggmap(tw.map.ncku.hybrid)+
-  geom_polygon(data = ncku.coords, aes(x = lon, y = lat),fill = NA, colour ="green")+
-  annotate("text", label = "國立成功大學", x = 120.217172, y = 22.998808+0.008, size = 3,
-           fontface = "bold",colour ="green")
+
 #=========================================================================
 
 # 成大座標範圍
