@@ -5,7 +5,7 @@ This repository contains all homework assignments from the STATISTIC SOFTWARE & 
 ## Repository Structure
 ```
 final
-├── final.pdf 
+├── final.pdf # The pdf file contains all the output
 ├── final1.R
 ├── final2.R
 └── final3.R      
